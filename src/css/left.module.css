@@ -1,0 +1,56 @@
+.left {
+    /* background-color: green; */
+    /* height: 100%; */
+    width: 50%;
+    position: relative;
+}
+
+.img {
+    width: 100%;
+    /* background-color: lightcoral; */
+}
+
+.time {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+  
+    transform: translate(-50%, -50%);
+  
+    color: white;
+   
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.heart {
+    position: absolute;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    color: white; 
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.heart > p{
+    margin: 0;
+    padding: 0;
+}
+
+.heart > i {  
+    color: red;
+    animation: beat 1s infinite;
+}
+  
+@keyframes beat {
+    0% {
+      transform: scale(1, 1);
+    }
+    50% {
+      transform: scale(1.2, 1.2);
+    }
+    100% {
+      transform: scale(1, 1);
+    }
+}

@@ -11,3 +11,10 @@ body {
   padding: 0 12%;
 }
 
+@media (max-width: 380px) {
+  .main {
+    flex-direction: column;
+    padding: 0 5%;
+  }
+
+}

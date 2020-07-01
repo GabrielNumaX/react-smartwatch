@@ -54,3 +54,30 @@
       transform: scale(1, 1);
     }
 }
+
+@media (max-width: 380px) {
+
+    .left {
+        width: 100%;
+        padding-top: 28px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .img {
+        width: 220px;
+    }
+    
+    .time {  
+        font-size: 28px;
+    }
+    
+    .heart {      
+        margin-top: 12px;
+        font-size: 28px;
+    }
+    
+    .heart > i {  
+        font-size: 28px;
+    }
+}
